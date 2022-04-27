@@ -1,9 +1,10 @@
 import React from "react";
+import imga from "../images/IMG_20191012_164644.jpg"
 export default function Main() {
   const [meme, setMeme] = React.useState({
     topText: "",
     bottomText: "",
-    memeImg: "http://i.imgflip.com/1bij.jpg",
+    memeImg: imga,
   });
   const [allMemes, setAllMemes] = React.useState([]);
   React.useEffect(() => {
